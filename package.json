@@ -1,0 +1,20 @@
+{
+  "name": "hanbao-joi",
+  "main": "lib/index.js",
+  "version": "0.1.0",
+  "dependencies": {
+    "joi": "^10.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qweasd1/hanbao-joi.git"
+  },
+  "description": "hanbao's joi model, support model reference and other meta data on joi",
+  "maintainers": [
+    {
+      "name": "tony",
+      "email": "zhw65@pitt.edu"
+    }
+  ]
+}
