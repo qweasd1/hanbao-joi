@@ -4,19 +4,19 @@ an extended version of joi to express model's schema in hanbao
 
 ## TODO
 * index
-* multiple pk
+* [optional] multiple pk
 * controll the visibility
+
 
 ## install
 ```bash
 npm install hanbao-joi
 ```
 
-## Quick Start
-```javascript
-
-
-```
+## Design
+* we let user to explicit create model use hanbao-joi's model
+* all field meta should store on ._flags in raw joi object
+* move properties on joi object to hanbao's Model object to support better strucutre pattern match
 
 
 ## Document
